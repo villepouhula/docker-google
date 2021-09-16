@@ -5,4 +5,4 @@ metadata:
 data:
   FLASK_ENV: development
   REDIS_URL: redis
-  REDIS_PORT: 6379
+  REDIS_PORT: "6379"
