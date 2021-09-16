@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-flask
-        image: villepouhula/demoapp
+        image: villepouhula/demoapp:v1
         envFrom:
         - configMapRef:
             name: web-conf
